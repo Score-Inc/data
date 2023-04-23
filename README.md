@@ -8,7 +8,7 @@ The following are description of data that is being used:
 
 ## Contributing
 
-If you are familiar with [Grasscutter](https://github.com/Grasscutters/Grasscutter), and know how to solve the errors. Feel free to update `sources.json` by creating a PR to help us improve the auto-responder
+If you are familiar with [Grasscutter](https://github.com/Grasscutters/Grasscutter), and know how to solve the errors. Feel free to update [`source.json`](/source.json by creating a PR to help us improve the auto-responder
 
 ### Credits
 - [Grasscutters/lawnmower](https://github.com/Grasscutters/lawnmower/) for the original idea
