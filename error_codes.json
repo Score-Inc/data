@@ -1,0 +1,64 @@
+[
+    {
+        "error_codes": [
+            {
+                "__comment": "undefined errors",
+                "keywords": [
+                    "4201",
+                    "4202",
+                    "4203",
+                    "4204",
+                    "4205",
+                    "4207",
+                    "4208",
+                    "4209",
+                    "4210",
+                    "4211",
+                    "4212",
+                    "4213",
+                    "4301",
+                    "4302",
+                    "4303",
+                    "4304",
+                    "4305",
+                    "4306",
+                    "4307",
+                    "4308"
+                ],
+                "action": "There are no fix yet for this error code. Check out <https://doc.yuuki.me/docs/troubleshooting/pc/error-codes#client-errors> for more info"
+            },
+            {
+                "keywords": [
+                    "4206"
+                ],
+                "action": "Your device isn't connecting to the server properly. Check your proxy settings (Fiddler, mitm, etc) and try again.",
+                "action_cn": "你的设备并没有正常连接到服务器，检查你的代理设置(Fiddler, mitm, 等)然后重试。"
+            },
+            {
+                "keywords": [
+                    "4214"
+                ],
+                "action": "This error occured when:\n\n1. You haven't patched your game.\n2. You already patched your game, but proxy isn't running\n\nTry:\n- Check if your game is patched and the proxy is running properly   "
+            },
+            {
+                "keywords": [
+                    "500"
+                ],
+                "action": "This error caused by server side when the server set the `EXPERIMENTAL_RealPassword = true` and you are running a client without a metadata patch (which no longer works in 3.1>)"
+            },
+            {
+                "keywords": [
+                    "502"
+                ],
+                "action": "The server address you are trying to connect doesn't exist or it's down. Check the [Status](<https://stats.uptimerobot.com/L8Nx6FL4V>) page. Or check real-time status in <#1051149545779777586>."
+            },
+            {
+                "__comment": "Mitmproxy issue",
+                "keywords": [
+                    "10048"
+                ],
+                "action": "Port is either being used by another instance of mitm, or other application that is running and using this port. To fix it, simply check the app that is using the port and close it. Or you can start mitm with other port by using the `-p PORTNUMBER` command-line when launching it."
+            }
+        ]
+    }
+]

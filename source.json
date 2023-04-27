@@ -1,162 +1,201 @@
 [
     {
-        "keywords": ["Address already in use", "java.net.BindException"],
+        "keywords": [
+            "Address already in use",
+            "java.net.BindException"
+        ],
         "action": "Check if something is running in these ports: `8888, 443, 80, 22102`. It's likely that is the thing stopping your server from starting. \n Run `netstat -aon | find /i \"listening\"` to see what ports are listening. Then kill the process with `taskkill /PID <PID>`",
         "action_cn": "检查是否有其他程序占用了这些端口: `8888, 443, 80, 22102`. 看起来这些占用端口的程序程序阻止了你的程序启动. \n 执行 `netstat -aon | find /i \"listening\"` 来查看占用端口的程序，然后通过执行`taskkill /PID <PID>`来终结它们"
     },
-    
-    
     {
-        "keywords": ["not recognized as an internal or external command"],
+        "keywords": [
+            "not recognized as an internal or external command"
+        ],
         "action": "You don't have java in your PATH. Make sure you have java installed or add it to PATH manually: https://www.java.com/en/download/help/path.html",
         "action_cn": "你的PATH路径中并没有java，确保你已经安装了java并且手动将其加入PATH中: https://www.java.com/en/download/help/path.html"
     },
-    
-    
     {
-        "keywords": ["unable to access jarfile"],
+        "keywords": [
+            "unable to access jarfile"
+        ],
         "action": "Build grasscutter first with `gradlew jar`. Make sure to follow the installation instructions in the README/Wiki properly.",
         "action_cn": "先通过执行命令`gradlew jar`来构建GrassCutter: 确保你的操作都是正确对照着README和Wiki的安装步骤来的"
     },
-    
-    
     {
-        "keywords": ["not have permission"],
+        "keywords": [
+            "not have permission"
+        ],
         "action": "Enter `/permission add <username> *` in your console",
         "action_cn": "在你正在运行服务端的终端里输入 `/permission add <username> *`并回车"
     },
-    
-    
     {
-        "keywords": ["java.lang.IllegalStateException"],
+        "keywords": [
+            "java.lang.IllegalStateException"
+        ],
         "action": "Your JSON is not valid. Check your ExcelConfigData and try again.",
         "action_cn": "你的JSON格式不正确，检查你的ExcelConfigData然后重试"
     },
-    
-    
     {
-        "keywords": ["JsonSyntaxException", "binoutput issue"],
+        "keywords": [
+            "JsonSyntaxException",
+            "binoutput issue"
+        ],
         "action": "Use the BinOutput from radioegor146 instead: <https://github.com/Koko-boya/Grasscutter_Resources>",
         "action_cn": "将BinOutput替换成radioegor146的: <https://github.com/Koko-boya/Grasscutter_Resources>"
     },
-    
-    
     {
-        "keywords": ["MongoSocketOpenException", "Connection refused", "Exception opening socket", "ECONNREFUSED"],
+        "keywords": [
+            "MongoSocketOpenException",
+            "Connection refused",
+            "Exception opening socket",
+            "ECONNREFUSED"
+        ],
         "action": "Start `mongod.exe` in `C:\\Program Files\\MongoDB\\Server\\<version>\\bin`",
         "action_cn": "启动在目录`C:\\Program Files\\MongoDB\\Server\\<version>\\bin`中的 `mongod.exe`"
     },
-    
-    
     {
-        "keywords": ["TypeAnnotationsScanner"],
+        "keywords": [
+            "TypeAnnotationsScanner"
+        ],
         "action": "Edit the reflection version in `build.gradle` to: \n\n `implementation group: 'org.reflections', name: 'reflections', version: '0.10.2'`",
         "action_cn": "更改`build.gradle`中的reflection版本为: \n\n `implementation group: 'org.reflections', name: 'reflections', version: '0.10.2'`"
     },
-    
-    
     {
-        "keywords": ["missing weights"],
+        "keywords": [
+            "missing weights"
+        ],
         "action": "Replace these in your resources/ExcelBinOutput folder:\n\nhttps://github.com/Koko-boya/Grasscutter_Resources/blob/main/Resources/ExcelBinOutput/ReliquaryMainPropExcelConfigData.json\n\nhttps://github.com/Koko-boya/Grasscutter_Resources/blob/main/Resources/ExcelBinOutput/ReliquaryAffixExcelConfigData.json",
         "action_cn": "替换resources/ExcelBinOutput目录里的这些文件:\n\nhttps://github.com/Koko-boya/Grasscutter_Resources/blob/main/Resources/ExcelBinOutput/ReliquaryMainPropExcelConfigData.json\n\nhttps://github.com/Koko-boya/Grasscutter_Resources/blob/main/Resources/ExcelBinOutput/ReliquaryAffixExcelConfigData.json"
     },
-    
     {
-        "keywords": ["internal server error"],
+        "keywords": [
+            "internal server error"
+        ],
         "action": "The feature is probably not yet implemented :pensive:",
         "action_cn": "该功能可能在目前并没有实现:pensive:"
     },
     {
-        "keywords": ["服务器内部错误"],
+        "keywords": [
+            "服务器内部错误"
+        ],
         "action": "The feature is probably not yet implemented :pensive:",
         "action_cn": "该功能可能在目前并没有实现:pensive:"
     },
-
-
     {
-        "keywords": ["4206"],
-        "action": "Your device isn't connecting to the server properly. Check your proxy settings (Fiddler, mitm, etc) and try again.",
-        "action_cn": "你的设备并没有正常连接到服务器，检查你的代理设置(Fiddler, mitm, 等)然后重试。"
-    },
-    
-    {
-        "keywords": ["where can i find ExcelBinOutput", "where can i find BinOutput", "where is ExcelBinOutput", "where is BinOutput", "where can i find the ExcelBinOutput", "where can i find the BinOutput", "where is the ExcelBinOutput", "where is the BinOutput", "where can i download ExcelBinOutput", "where can i download BinOutput"],
+        "keywords": [
+            "where can i find ExcelBinOutput",
+            "where can i find BinOutput",
+            "where is ExcelBinOutput",
+            "where is BinOutput",
+            "where can i find the ExcelBinOutput",
+            "where can i find the BinOutput",
+            "where is the ExcelBinOutput",
+            "where is the BinOutput",
+            "where can i download ExcelBinOutput",
+            "where can i download BinOutput"
+        ],
         "action": "You can get them all from here: \n<https://gitlab.com/YuukiPS/GC-Resources/>"
     },
     {
-        "keywords": ["ExcelBinOutput在哪里", "BinOutput在哪里", "ExcelBinOutput哪里找", " BinOutput哪里找", "哪里能找到ExcelBinOutput", "哪里能找到BinOutput", "该去哪里找ExcelBinOutput", "该去哪里找BinOutput", "ExcelBinOutput哪里下载", "BinOutput哪里下载","ExcelBinOutput哪里有", "BinOutput哪里有"],
+        "keywords": [
+            "ExcelBinOutput在哪里",
+            "BinOutput在哪里",
+            "ExcelBinOutput哪里找",
+            " BinOutput哪里找",
+            "哪里能找到ExcelBinOutput",
+            "哪里能找到BinOutput",
+            "该去哪里找ExcelBinOutput",
+            "该去哪里找BinOutput",
+            "ExcelBinOutput哪里下载",
+            "BinOutput哪里下载",
+            "ExcelBinOutput哪里有",
+            "BinOutput哪里有"
+        ],
         "action": "ExcelBinOutput: \n<https://gitlab.com/YuukiPS/GC-Resources/>"
     },
-
-
     {
-        "keywords": ["item id", "char id", "character id", "artifact id", "reliquary id"],
+        "keywords": [
+            "item id",
+            "char id",
+            "character id",
+            "artifact id",
+            "reliquary id"
+        ],
         "action": "Generate the GM handbook using `java -jar grasscutter.jar -handbook`\n\nOR\n\nUse the Discord command `/gm <query>`"
     },
     {
-        "keywords": ["物品id", "人物id", "制造品id", "圣遗物id"],
+        "keywords": [
+            "物品id",
+            "人物id",
+            "制造品id",
+            "圣遗物id"
+        ],
         "action": "通过执行命令`java -jar grasscutter.jar -handbook`生成\"游戏数据大全\"\n或者\n\n使用Discord命令`/gm <query>`"
     },
-    
     {
-        "keywords": ["scene ids"],
+        "keywords": [
+            "scene ids"
+        ],
         "action": "You can find them in your ExcelBinOutput folder (SceneExcelConfigData.json)"
     },
     {
-        "keywords": ["场景id"],
+        "keywords": [
+            "场景id"
+        ],
         "action": "在ExcelBinOutput目录里你能找到它们 (SceneExcelConfigData.json)"
     },
     {
-        "keywords": ["Conv inconsistency"],
+        "keywords": [
+            "Conv inconsistency"
+        ],
         "action": "This usually happens when you restart the server with active connections, but receiving packets fail because the server doesn't recognise the session. It should go away after a while when the client tries to reconnect",
         "action_cn": "这个错误通常在你有活跃的客户端连接着服务端的同时重启了服务端所导致，服务端接收的包错误的原因是无法识别会话，这个错误会在客户端尝试重新连接后消失。"
     },
     {
-        "keywords": ["4214"],
-        "action": "You haven't patched your game correctly. Check https://canary.discord.com/channels/964119462188040202/1049101257933066322 for more information."
-    },
-    {
-        "keywords": ["500", "Error 500", "Code 500"],
-        "action": "This error caused by server side when the server set the `EXPERIMENTAL_RealPassword = true` and you are running a client without a metadata patch (which no longer works in 3.1>)"
-    },
-    {
-        "keywords": ["502", "Error 502", "Code 502"],
-        "action": "The server address you are trying to connect doesn't exist or it's down. Check the [Status](<https://stats.uptimerobot.com/L8Nx6FL4V>) page. Or check real-time status in <#1051149545779777586>."
-    },
-    {
         "__comment": "YuukiPS Launcher Issues",
-        "keywords": ["launcher closed", "yuuki launcher crash"],
+        "keywords": [
+            "launcher closed",
+            "yuuki launcher crash"
+        ],
         "action": "Make sure you have installed [.NET Runtime 6.0 (Desktop).](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime).  Either the x64, x84 or arm64 depends on ur CPU architecture. [Click here for how to check ur CPU architecture](<https://pcguide101.com/cpu/what-is-my-processor-architecture/>)"
     },
     {
-        "keywords": ["no game file config found", "config not found", "No support game with MD5"],
+        "keywords": [
+            "no game file config found",
+            "config not found",
+            "No support game with MD5"
+        ],
         "action": "Your game version is not supported by the launcher (AKA you have newer version of the game or a client that is not supported by the MD5 API)\nPlease wait until the launcher is up-to-date"
     },
     {
         "__comment": "Mitmproxy Issues",
-        "keywords": ["cannot be loaded because running scripts is disabled on this system", "running scripts"],
+        "keywords": [
+            "cannot be loaded because running scripts is disabled on this system",
+            "running scripts"
+        ],
         "action": "- Manual Fix (For Advanced)\n1. Open powershell as administrator\n2. Type `Get-ExecutionPolicy` to check the current ExecutionPolicy applied\n3. If it says `Restricted` change it to `RemoteSigned` by using the `Set-ExecutionPolicy`. Read [here](https://www.sharepointdiary.com/2014/03/fix-for-powershell-script-cannot-be-loaded-because-running-scripts-is-disabled-on-this-system.html) for more info\n\n- Using Windows Settings (Recommended)\n1. Open windows settings and find Powershell (Make sure you have enabled Developer Mode)\n2. Enable `Change execution policy to allow local powershell scripts to run without signing. Require signing for remote scripts.` https://doc.yuuki.me/assets/images/powershell-settings-be5bce04f18ff8070230b02c93ad0277.png "
     },
     {
-        "keywords": ["My PC can't connect to the Internet", "no internet", "can't connect to internet"],
+        "keywords": [
+            "My PC can't connect to the Internet",
+            "no internet",
+            "can't connect to internet"
+        ],
         "action": "Turn off your windows proxy"
     },
     {
-        "keywords": ["Errno 10048", "Error 10048", "code 10048", "10048"],
-        "action": "Port is either being used by another instance of mitm, or other application that is running and using this port. To fix it, simply check the app that is using the port and close it. Or you can start mitm with other port by using the `-p PORTNUMBER` command-line when launching it."
-    },
-    {
         "__comment": "Cultivation Issues",
-        "keywords": ["Game excecutable not set!", "executable not set"],
+        "keywords": [
+            "Game excecutable not set!",
+            "executable not set"
+        ],
         "action": "You haven't set the game path, Go to Cultivation settings -> Set Game Install Path https://doc.yuuki.me/assets/images/game-path-culti-36a2ac989648dea98fa0640e732330d7.png"
     },
     {
-        "keywords": ["System Error. Please try again later.", "System Error"],
+        "keywords": [
+            "System Error. Please try again later.",
+            "System Error"
+        ],
         "action": "Make sure you have \"**Toggle Encryption**\" Disabled on the Cultivation settings, and unchecked \"**Use HTTPS**\". This error occurs usually on localhost server"
-    },
-    {
-        "__comment": "undefined errors",
-        "keywords": ["4201", "4202", "4203", "4205", "4207", "4208", "4209", "4210", "4211", "4212", "4213", "4301", "4302", "4303", "4304", "4305", "4306", "4307", "4308"],
-        "action": "There are no fix yet for this error code. Check out <https://doc.yuuki.me/docs/troubleshooting/pc/error-codes#client-errors> for more info"
     }
 ]
