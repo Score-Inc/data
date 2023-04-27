@@ -2,9 +2,9 @@
 
 A list of Error codes dumped from the anime game
 
-    ```cs
-    public enum ReportErrorCode
-    {
+```cs
+public enum ReportErrorCode
+{
     // Fields
     public int value__; // 0x10
     public const ReportErrorCode None = 0;
@@ -116,8 +116,8 @@ A list of Error codes dumped from the anime game
     public const ReportErrorCode SECError = 5000;
     public const ReportErrorCode Audio_NotDialogSpeechPoster = 6000;
     public const ReportErrorCode Audio_MissingDialogVoicePlugin = 6001;
-    }
-    ```
+}
+```
 
 ## Contributing
 
