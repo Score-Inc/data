@@ -38,7 +38,7 @@
                 "keywords": [
                     "4214"
                 ],
-                "action": "This error occured when:\n\n1. You haven't patched your game.\n2. You already patched your game, but proxy isn't running\n\nTry:\n- Check if your game is patched and the proxy is running properly   "
+                "action": "On Private Server, this error occured when:\n\n1. You haven't patched your game.\n2. You already patched your game, but proxy isn't running\n\nTry:\n- Check if your game is patched and the proxy is running properly\n\non Official Server, this error occured when:\n\n1. You are running the game with patch\n2. You didn't patched your game, but your proxy is running\n\nTry:\n- Check if your Proxy is running\n- Make sure your game is not patched"
             },
             {
                 "keywords": [
