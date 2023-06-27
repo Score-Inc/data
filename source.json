@@ -121,7 +121,7 @@
             "artifact id",
             "reliquary id"
         ],
-        "action": "Generate the GM handbook using `java -jar grasscutter.jar -handbook`\n\nOR\n\nUse the Discord command `/gm <query>`"
+        "action": "Download GM_Handbook at <#970380775264518244>\n\nOR\n\nUse the Discord command `/gm <query>`"
     },
     {
         "keywords": [
