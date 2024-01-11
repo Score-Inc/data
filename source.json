@@ -121,7 +121,7 @@
             "artifact id",
             "reliquary id"
         ],
-        "action": "Download GM_Handbook at <#970380775264518244>\n\nOR\n\nUse the Discord command `/gm <query>`"
+        "action": "To find ID you can check download GMHandbook at <#970380775264518244>\n\nUse the Discord command `/gm <query>`\n\nYou can also using [this website](https://doc.yuuki.me/docs/GMHandbook)"
     },
     {
         "keywords": [
@@ -130,7 +130,7 @@
             "制造品id",
             "圣遗物id"
         ],
-        "action": "通过执行命令`java -jar grasscutter.jar -handbook`生成\"游戏数据大全\"\n或者\n\n使用Discord命令`/gm <query>`"
+        "action": "要查找ID，您可以在频道<#970380775264518244>中查看并下载GMHandbook。\n此外，您还可以使用Discord命令`/gm <query>`。\n\n为了方便起见，您也可以通过以下网站访问GMHandbook：\n\n[网站](https://doc.yuuki.me/docs/GMHandbook)"
     },
     {
         "keywords": [
@@ -181,12 +181,12 @@
             "no internet",
             "can't connect to internet"
         ],
-        "action": "Turn off your windows proxy"
+        "action": "Turn off your windows proxy.\nSettings -> Network & Internet -> Proxy -> Turn off `Use a proxy server`"
     },
     {
         "__comment": "Cultivation Issues",
         "keywords": [
-            "Game excecutable not set!",
+            "Game executable not set!",
             "executable not set"
         ],
         "action": "You haven't set the game path, Go to Cultivation settings -> Set Game Install Path https://doc.yuuki.me/assets/images/game-path-culti-36a2ac989648dea98fa0640e732330d7.png"
@@ -197,5 +197,20 @@
             "System Error"
         ],
         "action": "Make sure you have \"**Toggle Encryption**\" Disabled on the Cultivation settings, and unchecked \"**Use HTTPS**\". This error occurs usually on localhost server"
+    },
+    {
+        "__comment": "No command found in Web command YuukiPS.",
+        "keywords": [
+            "can't find gm command"
+        ],
+        "action": "The command you entered was not found or is incorrect. You can find a list of commands on [this website](https://doc.yuuki.me/docs/category/command-list), or you can visit https://discord.com/channels/964119462188040202/1049101257933066322/1095643220169465916."
+    },
+    {
+        "keywords": [
+            "ID list in HSR",
+            "ID list for Honkai Star Rail",
+            "Where can I find ID list for HSR"
+        ],
+        "action": "You can check on <#1105333305391460452> to get list of ID in Honkai: Star Rail"
     }
 ]
