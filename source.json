@@ -121,7 +121,7 @@
             "artifact id",
             "reliquary id"
         ],
-        "action": "To find ID you can check download GMHandbook at <#970380775264518244>\n\nUse the Discord command `/gm <query>`\n\nYou can also using [this website](https://doc.yuuki.me/docs/GMHandbook)"
+        "action": "To find ID you can check and download GMHandbook at <#970380775264518244>\n\nUse the Discord command `/gm <query>`\n\nYou can also use [this website](https://gm.elaxan.com)"
     },
     {
         "keywords": [
