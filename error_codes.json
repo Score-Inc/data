@@ -31,7 +31,7 @@
                 "keywords": [
                     "4206"
                 ],
-                "action": "Your device isn't connecting to the server properly. Check your proxy settings (Fiddler, mitm, etc) and try again.",
+                "action": "If you have the 4206 error, either your encryption settings are incorrect (please disable encryption in Cultivation settings) or your device has not reached the server. Please make sure that Cultivation's proxy is turned on in the settings panel and that encryption is disabled.",
                 "action_cn": "你的设备并没有正常连接到服务器，检查你的代理设置(Fiddler, mitm, 等)然后重试。"
             },
             {
@@ -50,7 +50,7 @@
                 "keywords": [
                     "502"
                 ],
-                "action": "The server address you are trying to connect doesn't exist or it's down. Check the [Status](<https://stats.uptimerobot.com/L8Nx6FL4V>) page. Or check real-time status in <#1051149545779777586>."
+                "action": "There are two causes for this error:\n1. You have \"**Use HTTPS**\" checked in your local server\n2. Your device cannot reach the server.\nPlease uncheck \"**Use HTTPS**\" or make sure your device can reach the server.\nIf you are playing in YuukiPS, check the [Status](<https://stats.uptimerobot.com/L8Nx6FL4V>) page. Or check real-time status in <#1051149545779777586>."
             },
             {
                 "__comment": "Mitmproxy issue",
