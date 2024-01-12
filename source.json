@@ -196,7 +196,7 @@
             "System Error. Please try again later.",
             "System Error"
         ],
-        "action": "Make sure you have \"**Toggle Encryption**\" Disabled on the Cultivation settings, and unchecked \"**Use HTTPS**\". This error occurs usually on localhost server"
+        "action": "System error has four causes:\n1. Grasscutter is not running (either you didn't start it or an error caused it to stop running)\n2. Encryption is enabled (you must disable it in Cultivation settings)\n3. Wrong port/address (if you're connecting to a local server, the correct port and address is `localhost` and `443`)\n4.You have \"use HTTPS\" checked on the Cultivation home screen.\nPlease make sure to check these possibilites."
     },
     {
         "__comment": "No command found in Web command YuukiPS.",
