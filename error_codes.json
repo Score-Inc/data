@@ -28,6 +28,13 @@
                 "action": "There are no fix yet for this error code. Check out <https://doc.yuuki.me/docs/troubleshooting/pc/error-codes#client-errors> for more info"
             },
             {
+                "__comment": "Client Issue",
+                "keywords": [
+                    "31-4302"
+                ],
+                "action": "Safest way to fix this issue is to completely reinstall the game (which takes some time). Otherwise, you can try check the following sollution: https://canary.discord.com/channels/964119462188040202/1073598900100943992/1073598900100943992"
+            },
+            {
                 "keywords": [
                     "4206"
                 ],

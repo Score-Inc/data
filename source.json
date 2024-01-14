@@ -212,5 +212,11 @@
             "Where can I find ID list for HSR"
         ],
         "action": "You can check on <#1105333305391460452> to get list of ID in Honkai: Star Rail"
+    },
+    {
+        "keywords": [
+            "expired domain"
+        ],
+        "action": "Make sure you are connected to **ps.yuuki.me**. On Cultivation, check the address bar before launching the game. For Fiddler, make sure the host is correct: `oS.host = \"ps.yuuki.me\";`"
     }
 ]
